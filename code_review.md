@@ -37,7 +37,6 @@
 5. Review completed. 
 
 ### **3. Tips & Tools**
-3. Use formatters: black, YAPF, autopep8
 
 1. TIPS:
     - Solving multiple problems? Break them up into multiple PRs for ease of review. 
@@ -51,9 +50,9 @@
         - check for TODOs, debugger statements, unused imports
         - enforce styling (autopep8, black formatter, sort imports, etc)
         - option to reject commit if conditions don't pass
-6. TOOLS:
-    1. linter - pylint
-		- Coding standard		
+2. TOOLS:
+    1. linter: pylint
+        - Coding standard		
         - Error detection		
         - Refactoring help		
         - IDE & editor integration 
@@ -66,15 +65,16 @@
     ```
     python -m vulture script.py package/
     ```
-    3. pre-commit - a framework for managing and maintaining multi-language pre-commit hooks
+    3. formatters: black, YAPF, autopep8
+    4. pre-commit - framework for managing and maintaining multi-language pre-commit hooks
         - autopep8-wrapper - Runs autopep8 over source
         - flake8 and pyflakes - Run flake8 or pyflakes on source
         - check-ast - Check whether files contain valid python
         - debug-statements - Check for debugger imports and breakpoint() calls
-    4. continuous integration
-    5. coverage - % of code executed when runnint a test suite
-    6. VS Code life share
-    7. Nit-picking
+    5. continuous integration
+    6. coverage - % of code executed when runnint a test suite
+    7. VS Code life share
+    8. Nit-picking
         - Syntax Issues
         - Spelling Errors
         - Poor Variable Names
