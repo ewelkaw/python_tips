@@ -1,4 +1,6 @@
 ## **GOOD CODE REVIEW RULES** ##
+Based on presentation: https://ep2018.europython.eu/media/conference/slides/code-review-skills-for-pythonistas.pdf
+
 ### **1. Definition of done**
     
 1. You need to know what kind of problem you want to solve and what are the principles of accepting solution.
